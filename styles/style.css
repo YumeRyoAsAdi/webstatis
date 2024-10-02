@@ -1,0 +1,63 @@
+/* Reset beberapa gaya bawaan browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Gaya untuk header */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Gaya untuk gambar profil */
+header img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%; /* Membuat gambar berbentuk bulat */
+    margin-top: 10px;
+}
+
+/* Gaya untuk setiap section */
+section {
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px; /* Sudut membulat */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+/* Gaya untuk judul section */
+section h2 {
+    border-bottom: 2px solid #35424a; /* Garis bawah pada judul */
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* Gaya untuk footer */
+footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Gaya untuk tautan */
+footer a {
+    text-decoration: none;
+    color: #35424a;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Garis bawah saat mouse hover */
+}
